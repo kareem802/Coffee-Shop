@@ -1,5 +1,6 @@
 body{
-    font-family: "cairo", sans-serif;
+    font-family: "Playfair Display", serif;
+    background-color: #FFFFFF;
 }
 html{
     scroll-behavior: smooth;
@@ -50,9 +51,89 @@ ul{
 
 
     /* <!-- Section 4 --> */
+  .section4{
+    padding: 25px 0;
+    padding: 80   ;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  .section4 .title{
+    gap: 8px;
+    text-align: center;
+  }
+  .section4 .title p{
+    opacity: 0.56;
+    color: #282A3A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+  }
+  .section4 .title h5{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: -6px;
+    
+  }
+  .section4 .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+@media(max-width:767px){
+  .section4 .info{
+    flex-direction: column;
+  }
+}
+  .section4 .box .personal{
+    display: flex;
+    gap: 16px
 
+  }
+  .section4 .box .personal img{
+    width: 100px;
+    height: 100px;
 
+  }
 
+  .section4 .box .rate i{
+    color: #FFB31F;
+  }
+  .section4 .rate .one{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+  }
+  .section4 .box .personal + p{
+    font-family: Inter;
+    font-size: 18px;
+
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #000816;
+}
+
+.section4 .more{
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+.section4 .more span{
+  display: flex;
+  width: 8px;
+  height: 8px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+}
     /* <!-- Section 5 --> */
 
 
