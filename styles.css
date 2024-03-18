@@ -134,6 +134,9 @@ ul{
   background-color: #D9D9D9;
   border-radius: 50%;
 }
+.section4 .more span:hover{
+  background-color: #6D1600;
+}
     /* <!-- Section 5 --> */
 
 
