@@ -50,6 +50,119 @@ ul{
 
 
     /* <!-- Section 1 --> */
+    .info{
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left:50%;
+}
+
+.search{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    top: 10px;
+    left: 1780px;
+}
+
+.bag{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    top: 10px;
+    left: 1800px;
+}
+.logo{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.img1{
+    border-radius: 2px 90px;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    width: 250px;
+    height: 300px;
+}
+
+.img2{
+    
+    border-radius: 90px 2px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    width: 250px;
+    height: 300px;
+
+}
+
+.img3{
+    
+    border-radius: 2px 90px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    width: 250px;
+    height: 300px;
+
+}
+
+.img4{
+    
+    border-radius: 90px 2px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 250px;
+    height: 300px;
+
+}
+
+.img5{
+  
+    border-radius: 2px 90px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 250px;
+    height: 300px;
+
+}
+
+.para1{
+    font-size: 60px;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    font-weight: bold;
+}
+.para2{
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    left: 40%;
+}
+
+button{
+    background-color: rgb(126, 32, 32);
+    border-color:rgb(126, 32, 32) ;
+    border-radius: 2px 30px;
+    width: 2000px;
+    height: 80px;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    width: 400px;
+    color: white;
+    font-size: 20px;
+    
+
+    
+}
 
 
     /* <!-- Section 2 --> */
