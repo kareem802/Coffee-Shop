@@ -1,6 +1,7 @@
 body{
     font-family: "Playfair Display", serif;
     background-color: #FFFFFF;
+    margin: 0;
 }
 
 html{
@@ -532,6 +533,6 @@ ul{
     
     .section6 .container .right .bottom form input[type="submit"]:hover{
       background-color: #997971;
-
+      margin: 8px;
     }
 
