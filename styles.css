@@ -458,6 +458,9 @@ ul{
       text-align: left;
 
     }
+    .section6 .container .right .top a:hover{
+      color: #d13b16;
+    }
     .section6 .container .right .top .Social{
       display: flex;
       justify-content: space-between;
@@ -479,7 +482,7 @@ ul{
     .section6 .container .right .top i:hover {
       opacity: 1;
       color: #FFFFFF;
-      background-color: #6D1600;
+      background-color: #aa3416;
 
     }
     .section6 .container .right .bottom{
@@ -510,6 +513,7 @@ ul{
       background: #FFFFFF14;
       color: #FFFFFF;
       margin-top: -18px;
+      outline: none;
     }
     .section6 .container .right .bottom form input[type="submit"]{
       width: 130px;
@@ -532,7 +536,6 @@ ul{
     }
     
     .section6 .container .right .bottom form input[type="submit"]:hover{
-      background-color: #997971;
-      margin: 8px;
+      background-color: #aa3416;
     }
 
