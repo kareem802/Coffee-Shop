@@ -143,3 +143,194 @@ ul{
 
 
     /* <!-- Section 6 -->  */
+
+   .section6 {
+    background-color: #282A3A;
+   } 
+   .section6 .container{
+    display: flex;
+    color: #FFFFFF;
+    padding: 50px 0;
+    gap: 50px;
+   }
+   @media(max-width:767px){
+    .section6 .container,
+    .section6 .left .top{
+      flex-direction: column;
+    }
+    .section6 .left .top{
+      flex-direction: column;
+      margin-left: 20%;
+    }
+  }
+  .section6 .left {
+    width: 250px;
+    padding: 0;
+  }
+  .section6 .left .top{
+    display: flex;
+    gap: 24px;
+  }
+  @media(max-width:767px){
+    .section6 .left {
+      flex-direction: column;
+      margin-left: 20%;
+    }
+  }
+  .section6 .left .top img{
+    width: 58px;
+    height: 58px;
+    position: relative;
+    top: 50%;
+    transform: translateY(112%);
+}
+@media(max-width:767px){
+  .section6 .left .top img {
+    margin-left: 35px;
+  }
+}
+  .section6 .left .top h4{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .section6 .left > p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: -15px;
+  }
+  .section6 .left .info span{
+    display: block;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+
+  }
+  @media(max-width:767px){
+    .section6 .left > p ,
+    .section6 .left .info span{
+      text-align: center;
+    }
+  }
+  .section6 .container .right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-top: 40px;
+    gap: 50px;
+  }
+  @media(max-width:767px){
+    .section6 .container .right{
+      flex-direction: column;
+      margin: 0;
+    }
+  }
+  .section6 .container .right .top{
+    display: flex;
+    justify-content: space-between;
+    }
+    @media(max-width:767px){
+      .section6 .container .right .top{
+        flex-direction: column;
+        margin: 0;
+      }
+    }
+  .section6 .container .right .top>div{
+    margin-left: 70px;
+    }
+  .section6 .container .right .top h5,
+  .section6 .container .right .bottom h5{
+      font-family: Playfair Display;
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 39px;
+      letter-spacing: 0.5px;
+      text-align: left;
+
+    }
+    .section6 .container .right .top a{
+      color: #FFFFFF;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0.5px;
+      text-align: left;
+
+    }
+    .section6 .container .right .top .Social{
+      display: flex;
+      justify-content: space-between;
+      opacity: 70%;
+      gap: 8px;
+    }
+    @media(max-width:767px){
+      .section6 .container .right .top .Social{
+        justify-content:left ;
+      }
+    }
+    
+    .section6 .container .right .top .Social i{
+      background: #FFFFFF14;
+      font-size: 22px;
+      color: #FFFFFF;
+      padding: 10px;
+    }
+    .section6 .container .right .top i:hover {
+      opacity: 1;
+      color: #FFFFFF;
+      background-color: #6D1600;
+
+    }
+    .section6 .container .right .bottom{
+      margin-left: 70px;
+    }
+    .section6 .container .right .bottom form{
+      display: flex;
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+    }
+    .section6 .container .right .bottom form i{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-100%);
+      left: 25px;
+      font-size: 20px;
+    }
+    .section6 .container .right .bottom form input[type="email"] {
+      border: none;
+      border-right: none;
+      border-radius: 16px;
+      background: none;
+      padding: 20px 20px 20px 60px;
+      width: calc(100% - 130px);
+      background: #FFFFFF14;
+      color: #FFFFFF;
+      margin-top: -18px;
+    }
+    .section6 .container .right .bottom form input[type="submit"]{
+      width: 130px;
+      background-color: #6D1600;
+      color: white;
+      border-radius: 8px;
+      padding: 10px 20px;
+      border: 1px solid #6D1600;
+      position: absolute;
+      right: 58px;
+      top: -50%;
+      transform: translateY(10px);
+    }
+    .section6 .container .right .bottom form input[type="submit"]:hover{
+      background-color: #997971;
+
+    }
+
