@@ -285,6 +285,12 @@ ul{
     gap: 16px
 
   }
+  @media(max-width:767px){
+    .section4 .box .personal{
+      flex-direction: column;
+      align-items: center;
+    }
+  }
   .section4 .box .personal img{
     width: 100px;
     height: 100px;
