@@ -7,6 +7,12 @@ html{
     scroll-behavior: smooth;
 }
 
+.main-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 a{
     text-decoration: none;
 }
@@ -24,8 +30,8 @@ ul{
 .container{
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
       
 }
 
@@ -383,6 +389,8 @@ ul{
 
    .section6 {
     background-color: #282A3A;
+    padding-left: 40px;
+    padding-right: 40px;
    } 
    .section6 .container{
     display: flex;
@@ -460,7 +468,7 @@ ul{
   .section6 .container .right{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: ;
     padding-top: 40px;
     gap: 50px;
   }
@@ -473,6 +481,7 @@ ul{
   .section6 .container .right .top{
     display: flex;
     justify-content: space-between;
+
     }
     @media(max-width:767px){
       .section6 .container .right .top{
@@ -482,6 +491,7 @@ ul{
     }
   .section6 .container .right .top>div{
     margin-left: 70px;
+    width: auto;
     }
   .section6 .container .right .top h5,
   .section6 .container .right .bottom h5{
