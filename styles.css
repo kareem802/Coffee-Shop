@@ -39,6 +39,139 @@ ul{
 
 
     /* <!-- Section 1 --> */
+    .container{
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      
+  }
+  
+  .section1{
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      margin-bottom: 3rem;      
+      
+  }
+  
+  
+  
+  .info{
+      font-size: 30px;
+      position: relative;
+      top: 50px;
+      left:9%;
+  }
+  
+  .search{
+      height: 35px;
+      width: 35px;
+      position: relative;
+      top: 10px;
+      left: 1170px;
+  }
+  
+  .bag{
+      height: 35px;
+      width: 35px;
+      position: relative;
+      top: 10px;
+      left: 1200px;
+  }
+  .logo{
+      height: 35px;
+      width: 35px;
+      position: relative;
+      top: 10px;
+      right: 750px;
+  }
+  
+  .img1{
+      border-radius: 2px 90px;
+      position: relative;
+      top: 30px;
+      right: 390px;
+      width: 350px;
+      height: 400px;
+  }
+  
+  .img2{
+      
+      border-radius: 90px 2px;
+      position: relative;
+      top: 30px;
+      right: 350px;
+      width: 350px;
+      height: 400px;
+  
+  }
+  
+  .img3{
+      
+      border-radius: 2px 90px;
+      position: relative;
+      top: 30px;
+      right: 310px;
+      width: 350px;
+      height: 400px;
+  
+  }
+  
+  .img4{
+      
+      border-radius: 90px 2px;
+      position: relative;
+      top: -360px;
+      left: 1200px;
+      width: 350px;
+      height: 400px;
+  
+  }
+  
+  .img5{
+      
+      border-radius: 2px 90px;
+      position: relative;
+      top: -360px;
+      left: 450px;
+      width: 350px;
+      height: 400px;
+  
+  }
+  
+  .para1{
+      font-size: 58px;
+      position: relative;
+      top: 30px;
+      left: 31%;
+      font-weight: bold;
+  }
+  .para2{
+      font-size: 30px;
+      position: relative;
+      top: 30px;
+      left: 15%;
+  }
+  
+  button{
+      background-color: rgb(126, 32, 32);
+      border-color:rgb(126, 32, 32) ;
+      border-radius: 2px 30px;
+      width: 2000px;
+      height: 80px;
+      position: relative;
+      top: 50px;
+      left: 30%;
+      width: 400px;
+      color: white;
+      font-size: 20px;
+      
+  
+      
+  }
+
 
 
     /* <!-- Section 2 --> */
@@ -381,7 +514,220 @@ ul{
   background-color: #6D1600;
 }
     /* <!-- Section 5 --> */
+ /* ------------------------------------------------------------------ */
+  
+ .section5{
+      
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 3rem;      
+  
 
+}
+
+.section5 caption{
+  font-size: 35;
+  top:20%;
+  left:45%
+}
+
+.blog{ 
+  font-size: 25px;
+  color: rgb(121, 117, 117);
+  position: relative;
+  top: 30px;
+  right: -10px;
+
+}
+
+.articles{
+
+  font-size: 30px;
+  color: rgb(17, 16, 16);
+  position: relative;
+  top: 20px;
+  right: 60px;
+}
+
+/* fram1 -------------------------------- */
+.image-frame1 {
+  border: 2px solid rgb(30, 30, 30);
+  padding: 20px;
+  width: 400px; 
+  height:600px ;
+  text-align: center;
+  margin: 10px; 
+  float: left; 
+  border-radius: 2px 90px;
+  position: relative;
+  top: 50px;
+  right: 500px;
+}
+.rect1{
+  border-radius: 2px 90px;
+  position: relative;
+  top: -10px;
+  right: 1px;
+  width: 400px;
+  height: 400px;
+  
+}
+
+.image-frame1 rect1 {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.image-frame1 p1 {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding-top: 50px;
+}
+
+.image-frame1 user{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -50px;
+  left:100px;
+
+}
+.image-frame1 vector{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 70px;
+  left:100px;
+
+}
+/* frame2------------------------------ */
+
+.image-frame2 {
+  border: 2px solid rgb(30, 30, 30);
+  padding: 20px;
+  width: 400px; 
+  height:600px ;
+  text-align: center;
+  margin: 10px; 
+  float: left; 
+  border-radius: 2px 90px;
+  position: relative;
+  top:-610px;
+  right: 10px;
+}
+
+.rect2{
+  
+  border-radius: 2px 90px;
+  position: relative;
+  right: 1px;
+  top: -10x;
+  width: 400px;
+  height: 400px;
+}
+.image-frame2 rect2 {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.image-frame2 p2 {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding-top: 50px;
+}
+
+.image-frame2 user1{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 10px;
+  left:300px;
+
+}
+.image-frame2 vector1{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 70px;
+  left:100px;
+
+}
+/* -----frame3--------- */
+.image-frame3 {
+  border: 2px solid rgb(30, 30, 30);
+  padding: 20px;
+  width: 400px; 
+  height:600px ;
+  text-align: center;
+  margin: 10px; 
+  float: left; 
+  border-radius: 2px 90px;
+  position: relative;
+  top: -1270px;
+  left: 500px;
+}
+.rect3{
+  
+  border-radius: 2px 90px;
+  position: relative;
+  left: -1px;
+  top: -3px;
+  width: 400px;
+  height: 400px;
+}
+.image-frame3 rect3 {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.image-frame3 p3 {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding-top: 50px;
+  position: relative;
+  left: 830px;
+  top: 20px;
+}
+
+.image-frame3 user2{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 10px;
+  left:100px;
+
+}
+.image-frame3 vector2{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 10px;
+  left:100px;
+
+}
+
+.button2{
+  background-color: rgb(126, 32, 32);
+  border-color:rgb(126, 32, 32) ;
+  border-radius: 2px 30px;
+  width: 2000px;
+  height: 80px;
+  position: relative;
+  top: -1200px;
+  left: 20px;
+  width: 400px;
+  color: white;
+  font-size: 20px;
+  
+
+}
 
 
 
