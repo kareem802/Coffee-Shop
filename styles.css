@@ -1,7 +1,6 @@
 body{
     font-family: "Playfair Display", serif;
     background-color: #FFFFFF;
-    margin: 0;
 }
 
 html{
@@ -34,6 +33,7 @@ ul{
 
 
     /* <!-- Section 1 --> */
+
 
     /* <!-- Section 2 --> */
 
@@ -331,12 +331,6 @@ ul{
     gap: 16px
 
   }
-  @media(max-width:767px){
-    .section4 .box .personal{
-      flex-direction: column;
-      align-items: center;
-    }
-  }
   .section4 .box .personal img{
     width: 100px;
     height: 100px;
@@ -509,9 +503,6 @@ ul{
       text-align: left;
 
     }
-    .section6 .container .right .top a:hover{
-      color: #d13b16;
-    }
     .section6 .container .right .top .Social{
       display: flex;
       justify-content: space-between;
@@ -533,7 +524,7 @@ ul{
     .section6 .container .right .top i:hover {
       opacity: 1;
       color: #FFFFFF;
-      background-color: #aa3416;
+      background-color: #6D1600;
 
     }
     .section6 .container .right .bottom{
@@ -564,7 +555,6 @@ ul{
       background: #FFFFFF14;
       color: #FFFFFF;
       margin-top: -18px;
-      outline: none;
     }
     .section6 .container .right .bottom form input[type="submit"]{
       width: 130px;
@@ -587,7 +577,8 @@ ul{
     }
     
     .section6 .container .right .bottom form input[type="submit"]:hover{
-      background-color: #aa3416;
+      background-color: #997971;
+
     }
 
 
